@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Mini Mercado</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	<body>
+		<div class="header"> <!-- (I) Header -->
+			<div class="container"> <!-- (I) Container -->
+				<div class="navbar"> <!-- (I) NavBar -->	
+					<div class="logo"> <!-- (I) Logo -->
+						<a href="index.html"><img src="images/logo.png" width="125px"></a>
+					</div> <!-- (F) Logo -->
+					
+					<nav> <!-- (I) Conteudo da NavBar -->
+						<ul id="MenuItems"> 
+							<li><a href="index.html">Home</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="">Sobre</a></li>
+							<li><a href="">Contato</a></li>
+							<li><a href="conta.html">Cadastro</a></li>
+						</ul>
+					</nav> <!-- (F) Conteudo da NavBar -->
+					<a href="carrinho.html"><img src="images/cart.png" width="30px" height="30px"></a>
+					<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+				</div> <!-- (F) NavBar -->
+			
+				<div class="row"> <!-- (I) Row -->
+					
+					<div class="col-2"> <!-- (I) Texto Principal -->
+						<h1>Empodere sua Compra</h1>
+							<p>
+								Somente hoje descontos de 10% a 50%.<br>Acumule pontos em suas compras e troque por brindes.
+							</p>
+							<a href="" class="btn">Explore Mais &#8594;</a>
+					</div> <!-- (F) Texto Principal -->
+				
+					<div class="col-2"> <!-- (I) Imagem Principal -->
+						<img src="images/image1.png" alt="">
+					</div><!-- (F) Imagem Principal -->
+				</div> <!-- (F) Row -->
+			</div> <!-- (F) Container 1 -->
+		</div> <!-- (F) Header -->
+
+		<!-- Categorias -->
+
+		<div class="categorias">	<!-- (I) Conteudo de Categorias -->
+			<div class="container-2"> 
+				<div class="row">	
+					<div class="col-3">
+						<img src="images/category-1.jpg">
+					</div>
+					<div class="col-3">
+						<img src="images/category-2.jpg">
+					</div>
+					<div class="col-3">
+						<img src="images/category-3.jpg">
+					</div>
+				</div>
+			</div>
+		</div>		<!-- (F) Conteudo de Categorias -->
+
+				
+				<!-- Produtos em Destaques -->
+		
+		<div class="container-2">
+			<h2 class="titulo">Produtos em Destaque</h2>
+			<div class="row">  <!-- (I) Conteudo de Produtos -->
+				<div class="col-4">
+					<a href="detalhes-produto.html"><img src="images/product-1.jpg"></a>
+					<a href="detalhes-produto.html"><h4>Camiseta HRX</h4></a>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>R$18.00</p>
+				</div>
+				
+				<div class="col-4">
+					<img src="images/product-2.jpg">
+					<h4>Webcam Logitech</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>R$250.10</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-3.jpg">
+					<h4>Monitor Alienware</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>R$1200.00</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-4.jpg">
+					<h4>Mouse Logitech</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+					<p>R$87.00</p>
+				</div>
+			</div> <!-- (F) Conteudo de Produtos -->
+				
+				<!-- Produtos Mais Recentes -->
+
+			<h2 class="titulo">Produtos mais recentes</h2> 
+			<div class="row">
+				<div class="col-4">
+					<img src="images/product-5.jpg">
+					<h4>Vassoura</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>R$16.00</p>
+				</div>
+				
+				<div class="col-4">
+					<img src="images/product-6.jpg">
+					<h4>Aspirador de Pó</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>R$531.00</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-7.jpg">
+					<h4>Lampada de LED</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>R$53.00</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-8.jpg">
+					<h4>Headset JBL</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+					<p>R$52.90</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-4">
+					<img src="images/product-9.jpg">
+					<h4>Smartphone Samsung</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>R$1800.00</p>
+				</div>
+				
+				<div class="col-4">
+					<img src="images/product-10.jpg">
+					<h4>Caderno Universitário</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$12.00</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-11.jpg">
+					<h4>Pilha Panasonic</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>$18.60</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-12.jpg">
+					<h4>Smart TV 4K</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>
+					</div>
+					<p>$2400.00</p>
+				</div>
+			</div>
+		</div> 	<!-- (F) Container 2 -->
+
+				<!--------- Ofertas --------->
+
+		<div class="oferta"> <!-- (I) Box Oferta -->
+			<div class="container-2"> <!-- (I) Container 2 -->
+				<div class="row">
+					<div class="col-2">
+						<img src="images/exclusive.png" class="oferta-img">
+					</div>
+					<div class="col-2">
+						<p>Produto Exclusivo do Mini Mercado</p>
+						<h1>Smart Band 4</h1>
+						<small>
+						Em sua nova versão, a Mi Band 4 traz novas funções, 
+						além das funções já conhecidas, porém ainda mais aprimoradas para 
+						melhorar a sua qualidade de vida.</small><br>
+						<a href="" class="btn">Compre Já &#8594;</a>
+					</div>
+				</div>
+			</div> <!-- (F) Container 2 -->
+		</div> <!-- (F) Box Oferta -->
+
+		<!--------- Depoimentos -------->
+
+		<div class="depoimento"> <!-- (I) Box Depoimentos -->
+			<div class="container-2"> <!-- (I) Container 2 -->
+				<div class="row">
+					<div class="col-3">							
+						<i class="fa fa-quote-left"></i>
+						<p>Lorem Ipsum is simply dummy text of the printing
+						and typesetting industry. Lorem Ipsum has been the
+						industry's standard dummy text ever.</p>
+						<div class="nota">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<img src="images/user-1.png">
+						<h3>Laura Oliveira</h3>
+					</div>
+					
+					<div class="col-3">							
+						<i class="fa fa-quote-left"></i>
+						<p>Lorem Ipsum is simply dummy text of the printing
+						and typesetting industry. Lorem Ipsum has been the
+						industry's standard dummy text ever.</p>
+						<div class="nota">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<img src="images/user-2.png">
+						<h3>Matheus Souza</h3>
+					</div>
+
+					<div class="col-3">							
+						<i class="fa fa-quote-left"></i>
+						<p>Lorem Ipsum is simply dummy text of the printing
+						and typesetting industry. Lorem Ipsum has been the
+						industry's standard dummy text ever.</p>
+						<div class="nota">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<img src="images/user-3.png">
+						<h3>Ana Rodrigues</h3>
+					</div>
+				</div>
+			</div> <!-- (F) Container 2 -->
+		</div> <!-- (F) Box Depoimentos -->
+
+
+		<!--------- Marcas -------->
+
+		<div class="marca">
+			<div class="container-2">
+				<div class="row">
+					<div class="col-5">
+						<img src="images/logo-godrej.png">
+					</div>
+					<div class="col-5">
+						<img src="images/logo-oppo.png">
+					</div>
+					<div class="col-5">
+						<img src="images/logo-coca-cola.png">
+					</div>
+					<div class="col-5">
+						<img src="images/logo-paypal.png">
+					</div>
+					<div class="col-5">
+						<img src="images/logo-philips.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--------- Rodapé -------->
+
+		<div class="rodape">
+			<div class="container">
+				<div class="row">
+					<div class="rodape-col-1">
+						<h3>Baixe Nosso APP</h3>
+						<p>Baixe o Aplicativo para Smartphones Android e IOS</p>
+						<div class="app-logo">
+							<img src="images/play-store.png">
+							<img src="images/app-store.png">
+						</div>
+					</div>
+					<div class="rodape-col-2">
+						<img src="images/logo-white.png">
+						<p>Nosso objetivo é tornar o prazer e os benefícios da 
+						sua compra mais acessíveis de uma forma sustentável.</p>
+					</div>
+					<div class="rodape-col-3">
+						<h3>Veja Mais</h3>
+						<ul> 
+							<li>Cupons</li>
+							<li>Forúm</li>
+							<li>Política de Devolução</li>
+							<li>Torne-se um Afiliado</li>
+						</ul>
+					</div>
+
+					<div class="rodape-col-4">
+						<h3>Siga a Gente</h3>
+						<ul> 
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>Instagram</li>
+							<li>Youtube</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<p class="copyright">&#169; Copyright 2022 - Websupply</p>
+			</div>
+		</div>
+
+		<!--------- JS para o Menu Responsivo -------->
+
+		<script type="text/javascript">
+			var MenuItems = document.getElementById("MenuItems");
+
+			MenuItems.style.maxHeight = "0px";
+
+			function menutoggle() {
+				if (MenuItems.style.maxHeight == "0px") 
+					{
+						MenuItems.style.maxHeight = "200px";
+					}
+				else
+					{
+						MenuItems.style.maxHeight = "0px";
+					}
+			}
+		</script>
+
+
+	</body>
+</html>

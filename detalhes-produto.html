@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Produtos - Mini Mercado</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	<body>
+			<div class="container"> <!-- (I) Container -->
+				<div class="navbar"> <!-- (I) NavBar -->	
+					<div class="logo"> <!-- (I) Logo -->
+						<a href="index.html"><img src="images/logo.png" width="125px"></a>
+					</div> <!-- (F) Logo -->
+					
+					<nav> <!-- (I) Conteudo da NavBar -->
+						<ul id="MenuItems"> 
+							<li><a href="index.html">Home</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="">Sobre</a></li>
+							<li><a href="">Contato</a></li>
+							<li><a href="conta.html">Cadastro</a></li>
+						</ul>
+					</nav> <!-- (F) Conteudo da NavBar -->
+					<a href="carrinho.html"><img src="images/cart.png" width="30px" height="30px"></a>
+					<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+				</div> <!-- (F) NavBar -->
+			</div> <!-- (F) Container 1 -->
+
+			<!-------- Detalhe do Produto -------->
+
+			<div class="container-2 produto-unico">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/gallery-1.jpg" width="100%" id="ProdutoImg">
+						
+						<div class="container-img-row">
+							<div class="container-img-col">	
+								<img src="images/gallery-1.jpg" width="100%" class="produto-img-p">
+							</div>
+							<div class="container-img-col">
+								<img src="images/gallery-2.jpg" width="100%" class="produto-img-p">
+							</div>
+							<div class="container-img-col">
+								<img src="images/gallery-3.jpg" width="100%" class="produto-img-p">
+							</div>
+							<div class="container-img-col">
+								<img src="images/gallery-4.jpg" width="100%" class="produto-img-p">
+							</div>
+						</div>
+					</div>
+
+					<!-------- Produto Unico -------->
+
+
+					<div class="col-2">
+						<p>Home / Camiseta HRX</p>
+						<h1>Camiseta HRX</h1>
+						<h4>$50.00</h4>
+						<select>
+							<option>Tamanho</option>
+							<option>XXL</option>
+							<option>XL</option>
+							<option>Large</option>
+							<option>Medium</option>
+							<option>Small</option>
+						</select>
+						<input type="number" value="1">
+						<a href="" class="btn">Adicionar ao Carrinho</a>
+						
+						<h3>Descrição do Produto<i class="fa fa-indent"></i></h3>
+						<br>
+						<p>Dê um upgrade de estilo e no seu guarda-roupa com essa camiseta masculina HRX. 
+						Combine com shorts para o treino matinal ou jeans para sair à noite com a galera.</p>
+					</div>
+				</div>
+			</div>
+
+			<!----------------- Produtos Relacionados ------------------->
+
+					<div class="container-2">
+						<div class="row row-2">
+							<h2>Outros Produtos</h2>
+							<p>Veja Mais</p>
+						</div>
+					</div>
+				
+
+		<!-------- Produtos -------->
+		
+		<div class="container-2">			
+			<div class="row"> <!-- (I) Row de Produtos -->
+				<div class="col-4">
+					<img src="images/product-9.jpg">
+					<h4>Smartphone Samsung</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>R$1800.00</p>
+				</div>
+				
+				<div class="col-4">
+					<img src="images/product-10.jpg">
+					<h4>Caderno Universitário</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$12.00</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-11.jpg">
+					<h4>Pilha Panasonic</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>$18.60</p>
+				</div>
+
+				<div class="col-4">
+					<img src="images/product-12.jpg">
+					<h4>Smart TV 4K</h4>
+					<div class="nota">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+					<p>$2400.00</p>
+				</div>
+			</div> <!-- (F) Row de Produtos -->
+		</div> 	<!-- (F) Container 2 -->
+
+		<!--------- Rodapé -------->
+
+		<div class="rodape">
+			<div class="container">
+				<div class="row">
+					<div class="rodape-col-1">
+						<h3>Baixe Nosso APP</h3>
+						<p>Baixe o Aplicativo para Smartphones Android e IOS</p>
+						<div class="app-logo">
+							<img src="images/play-store.png">
+							<img src="images/app-store.png">
+						</div>
+					</div>
+					<div class="rodape-col-2">
+						<img src="images/logo-white.png">
+						<p>Nosso objetivo é tornar o prazer e os benefícios da 
+						sua compra mais acessíveis de uma forma sustentável.</p>
+					</div>
+					<div class="rodape-col-3">
+						<h3>Veja Mais</h3>
+						<ul> 
+							<li>Cupons</li>
+							<li>Forúm</li>
+							<li>Política de Devolução</li>
+							<li>Torne-se um Afiliado</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<p class="copyright">&#169; Copyright 2022 - Websupply</p>
+			</div>
+		</div>
+
+		<!--------- JS para o Menu Responsivo -------->
+
+		<script type="text/javascript">
+			var MenuItems = document.getElementById("MenuItems");
+
+			MenuItems.style.maxHeight = "0px";
+
+			function menutoggle() {
+				if (MenuItems.style.maxHeight == "0px") 
+					{
+						MenuItems.style.maxHeight = "200px";
+					}
+				else
+					{
+						MenuItems.style.maxHeight = "0px";
+					}
+			}
+		</script>
+
+		<!--------- JS para o Galeria do Produto Unico -------->
+
+		<script>
+			var ProdutoImg = document.getElementById("ProdutoImg");
+			var SmallImg = document.getElementsByClassName("produto-img-p");
+
+			SmallImg[0].onclick = function(){
+				ProdutoImg.src = SmallImg[0].src;
+			}
+			SmallImg[1].onclick = function()
+			{
+				ProdutoImg.src = SmallImg[1].src;
+			}
+			SmallImg[2].onclick = function()
+			{
+				ProdutoImg.src = SmallImg[2].src;
+			}
+			SmallImg[3].onclick = function()
+			{
+				ProdutoImg.src = SmallImg[3].src;
+			}
+
+		</script>
+
+	</body>
+</html>
